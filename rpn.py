@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import operator
+import math
 
 
 operators = {
@@ -8,6 +9,7 @@ operators = {
     '-': operator.sub,
     '*': operator.mul,
     '/': operator.truediv,
+    '^': math.exp,
 }
 
 def calculate(myarg):
